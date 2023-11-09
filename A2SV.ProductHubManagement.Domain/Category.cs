@@ -13,6 +13,5 @@ namespace A2SV.ProductHubManagement.Domain
         public string Description { get; set; }
 
         // Navigation property for one-to-many relationship with products
-        public ICollection<Product> Products { get; set; }
     }
 }

@@ -1,0 +1,15 @@
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Application\bin\Debug\net7.0\A2SV.ProductHubManagement.Application.deps.json
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Application\bin\Debug\net7.0\A2SV.ProductHubManagement.Application.dll
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Application\bin\Debug\net7.0\A2SV.ProductHubManagement.Application.pdb
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Application\bin\Debug\net7.0\A2SV.ProductHubManagement.Domain.dll
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Application\bin\Debug\net7.0\A2SV.ProductHubManagement.Domain.pdb
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Application\obj\Debug\net7.0\A2SV.ProductHubManagement.Application.csproj.AssemblyReference.cache
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Application\obj\Debug\net7.0\A2SV.ProductHubManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Application\obj\Debug\net7.0\A2SV.ProductHubManagement.Application.AssemblyInfoInputs.cache
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Application\obj\Debug\net7.0\A2SV.ProductHubManagement.Application.AssemblyInfo.cs
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Application\obj\Debug\net7.0\A2SV.ProductHubManagement.Application.csproj.CoreCompileInputs.cache
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Application\obj\Debug\net7.0\A2SV.ProductHubManagement.Application.csproj.CopyComplete
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Application\obj\Debug\net7.0\A2SV.ProductHubManagement.Application.dll
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Application\obj\Debug\net7.0\refint\A2SV.ProductHubManagement.Application.dll
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Application\obj\Debug\net7.0\A2SV.ProductHubManagement.Application.pdb
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Application\obj\Debug\net7.0\ref\A2SV.ProductHubManagement.Application.dll

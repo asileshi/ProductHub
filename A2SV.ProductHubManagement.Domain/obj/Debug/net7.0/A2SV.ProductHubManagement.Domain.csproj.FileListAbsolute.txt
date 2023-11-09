@@ -9,3 +9,15 @@ D:\Projects\A2SV.ProductHubManagement\A2SV.ProductHubManagement.Domain\obj\Debug
 D:\Projects\A2SV.ProductHubManagement\A2SV.ProductHubManagement.Domain\obj\Debug\net7.0\refint\A2SV.ProductHubManagement.Domain.dll
 D:\Projects\A2SV.ProductHubManagement\A2SV.ProductHubManagement.Domain\obj\Debug\net7.0\A2SV.ProductHubManagement.Domain.pdb
 D:\Projects\A2SV.ProductHubManagement\A2SV.ProductHubManagement.Domain\obj\Debug\net7.0\ref\A2SV.ProductHubManagement.Domain.dll
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Domain\bin\Debug\net7.0\A2SV.ProductHubManagement.Domain.deps.json
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Domain\bin\Debug\net7.0\A2SV.ProductHubManagement.Domain.dll
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Domain\bin\Debug\net7.0\A2SV.ProductHubManagement.Domain.pdb
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Domain\obj\Debug\net7.0\A2SV.ProductHubManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Domain\obj\Debug\net7.0\A2SV.ProductHubManagement.Domain.AssemblyInfoInputs.cache
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Domain\obj\Debug\net7.0\A2SV.ProductHubManagement.Domain.AssemblyInfo.cs
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Domain\obj\Debug\net7.0\A2SV.ProductHubManagement.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Domain\obj\Debug\net7.0\A2SV.ProductHubManagement.Domain.dll
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Domain\obj\Debug\net7.0\refint\A2SV.ProductHubManagement.Domain.dll
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Domain\obj\Debug\net7.0\A2SV.ProductHubManagement.Domain.pdb
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Domain\obj\Debug\net7.0\ref\A2SV.ProductHubManagement.Domain.dll
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Domain\obj\Debug\net7.0\A2SV.ProductHubManagement.Domain.csproj.AssemblyReference.cache

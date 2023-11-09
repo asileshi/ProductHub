@@ -1,0 +1,12 @@
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Infrastructure\bin\Debug\net7.0\A2SV.ProductHubManagement.Infrastructure.deps.json
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Infrastructure\bin\Debug\net7.0\A2SV.ProductHubManagement.Infrastructure.dll
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Infrastructure\bin\Debug\net7.0\A2SV.ProductHubManagement.Infrastructure.pdb
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Infrastructure\obj\Debug\net7.0\A2SV.ProductHubManagement.Infrastructure.csproj.AssemblyReference.cache
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Infrastructure\obj\Debug\net7.0\A2SV.ProductHubManagement.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Infrastructure\obj\Debug\net7.0\A2SV.ProductHubManagement.Infrastructure.AssemblyInfoInputs.cache
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Infrastructure\obj\Debug\net7.0\A2SV.ProductHubManagement.Infrastructure.AssemblyInfo.cs
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Infrastructure\obj\Debug\net7.0\A2SV.ProductHubManagement.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Infrastructure\obj\Debug\net7.0\A2SV.ProductHubManagement.Infrastructure.dll
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Infrastructure\obj\Debug\net7.0\refint\A2SV.ProductHubManagement.Infrastructure.dll
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Infrastructure\obj\Debug\net7.0\A2SV.ProductHubManagement.Infrastructure.pdb
+D:\Projects\backed_assessment\A2SV.ProductHubManagement.Infrastructure\obj\Debug\net7.0\ref\A2SV.ProductHubManagement.Infrastructure.dll

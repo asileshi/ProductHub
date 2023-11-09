@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "nlBVPuQnZ4Vbhs36DTOynVmfOqG49SXP1e2mLAs++2dX/b0LAnNG4rjFDiGCr5G8QAGzaa1qHpWiPhbUpjWTOA==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\backed_assessment\\A2SV.ProductHubManagement.Infrastructure\\A2SV.ProductHubManagement.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\abebe\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0-rc.2.23479.6\\microsoft.extensions.configuration.abstractions.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\abebe\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0-rc.2.23479.6\\microsoft.extensions.configuration.binder.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\abebe\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0-rc.2.23479.6\\microsoft.extensions.dependencyinjection.abstractions.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\abebe\\.nuget\\packages\\microsoft.extensions.options\\8.0.0-rc.2.23479.6\\microsoft.extensions.options.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\abebe\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\8.0.0-rc.2.23479.6\\microsoft.extensions.options.configurationextensions.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\abebe\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0-rc.2.23479.6\\microsoft.extensions.primitives.8.0.0-rc.2.23479.6.nupkg.sha512"
+  ],
+  "logs": []
+}
