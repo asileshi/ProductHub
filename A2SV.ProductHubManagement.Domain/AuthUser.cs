@@ -9,7 +9,6 @@ namespace A2SV.ProductHubManagement.Domain
 {
     public class AuthUser: Microsoft.AspNetCore.Identity.IdentityUser
     {
-        public string Username { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
 

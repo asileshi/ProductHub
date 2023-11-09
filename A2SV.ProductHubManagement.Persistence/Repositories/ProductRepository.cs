@@ -17,6 +17,19 @@ namespace A2SV.ProductHubManagement.Persistence.Repositories
         {
             _dbContext = dbContext;
         }
-       
+
+        public async Task<List<Product>> filterByAvailability()
+        {
+            return await _dbContext.Products
+                .Where(p => p.Availability)
+                .ToListAsync();
+        }
+
+        public async Task<List<Product>> filterByPrice(decimal price)
+        {
+            return await _dbContext.Products
+                .Where(p => p.Pricing <= price)
+                .ToListAsync();
+        }
     }
 }

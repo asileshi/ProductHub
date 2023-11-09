@@ -20,6 +20,7 @@ namespace A2SV.ProductHubManagement.Persistence
         
         {
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(ProductManagementDbContext).Assembly);
+            
 
         }
         public override Task<int> SaveChangesAsync(bool acceptAllChangesOnSuccess, CancellationToken cancellationToken = default)

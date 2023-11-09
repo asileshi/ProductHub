@@ -27,6 +27,16 @@ namespace A2SV.ProductHubManagement.Api.Controllers
         {
             return Ok(await _mediator.Send(new GetProdcutRequest { Product = id }));
         }
+
+        [HttpGet("filterByAvailability")]
+        public async Task<ActionResult<List<ProductDto>>> FilterByAvailability()
+        {
+            var request = new FilterProductByAvailabilityRequest();
+            var filteredProducts = await _mediator.Send(request);
+
+            return Ok(filteredProducts);
+        }
+
         [HttpPost("CreateProduct")]
         // [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         public async Task<ActionResult> Post(CreateProductCommand product)
@@ -49,6 +59,15 @@ namespace A2SV.ProductHubManagement.Api.Controllers
             var command = new DeleteProductCommand { Id = id };
             await _mediator.Send(command);
             return NoContent();
+        }
+
+        [HttpGet("filterByPrice")]
+        public async Task<ActionResult<ProductDto>> FilterByPrice([FromQuery] decimal price)
+        {
+            var command = new FilterByPricingRequest { Price = price };
+           var fileteredProducts = await _mediator.Send(command);
+            return Ok(fileteredProducts);
+            
         }
     }
 }

@@ -15,9 +15,9 @@ namespace A2SV.ProductHubManagement.Domain
         public bool Availability { get; set; }
 
         // Foreign key for the product owner (User)
-        public int ?UserId { get; set; }
+        public int ?AuthUserId { get; set; }
         // Navigation property for many-to-one relationship with user (product owner)
-        public AuthUser ?User { get; set; }
+        public AuthUser ?AuthUser { get; set; }
         public Category ? Categories { get; set; }
         public int ? CategoryId { get; set; }
         // Collection of bookings associated with the product

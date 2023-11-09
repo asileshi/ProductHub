@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wmgTUFR6MYB0X2mXnLDJo/0EHCm/3Yssa9gDAA3JMRj/O/cntxHv5eSdt3Av+w7B0DAX/BeF4Zs+fBZa2iZj4A==",
+  "dgSpecHash": "rvLULcTXoQRLiNX8HxNnSufy+JjatEpHmGYlTyl/LGCdazm0EuXyPSCAlC3tVmK4bf6jgeDIIk58/9vYko7B9Q==",
   "success": true,
   "projectFilePath": "D:\\Projects\\backed_assessment\\A2SV.ProductHubManagement.Persistence\\A2SV.ProductHubManagement.Persistence.csproj",
   "expectedPackageFiles": [
@@ -39,10 +39,10 @@
     "C:\\Users\\abebe\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.13\\microsoft.entityframeworkcore.7.0.13.nupkg.sha512",
     "C:\\Users\\abebe\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.13\\microsoft.entityframeworkcore.abstractions.7.0.13.nupkg.sha512",
     "C:\\Users\\abebe\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.13\\microsoft.entityframeworkcore.analyzers.7.0.13.nupkg.sha512",
-    "C:\\Users\\abebe\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.5\\microsoft.entityframeworkcore.design.7.0.5.nupkg.sha512",
+    "C:\\Users\\abebe\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.13\\microsoft.entityframeworkcore.design.7.0.13.nupkg.sha512",
     "C:\\Users\\abebe\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.13\\microsoft.entityframeworkcore.relational.7.0.13.nupkg.sha512",
     "C:\\Users\\abebe\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.13\\microsoft.entityframeworkcore.sqlserver.7.0.13.nupkg.sha512",
-    "C:\\Users\\abebe\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.5\\microsoft.entityframeworkcore.tools.7.0.5.nupkg.sha512",
+    "C:\\Users\\abebe\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.13\\microsoft.entityframeworkcore.tools.7.0.13.nupkg.sha512",
     "C:\\Users\\abebe\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\abebe\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "C:\\Users\\abebe\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

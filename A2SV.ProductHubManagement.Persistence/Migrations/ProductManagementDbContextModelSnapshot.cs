@@ -22,6 +22,63 @@ namespace A2SV.ProductHubManagement.Persistence.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("A2SV.ProductHubManagement.Domain.AuthUser", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("AccessFailedCount")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ConcurrencyStamp")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("EmailConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("LockoutEnabled")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTimeOffset?>("LockoutEnd")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<string>("NormalizedEmail")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NormalizedUserName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PasswordHash")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("PhoneNumberConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("SecurityStamp")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("TwoFactorEnabled")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("UserName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Users");
+                });
+
             modelBuilder.Entity("A2SV.ProductHubManagement.Domain.Booking", b =>
                 {
                     b.Property<int>("Id")
@@ -90,6 +147,12 @@ namespace A2SV.ProductHubManagement.Persistence.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int?>("AuthUserId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("AuthUserId1")
+                        .HasColumnType("nvarchar(450)");
+
                     b.Property<bool>("Availability")
                         .HasColumnType("bit");
 
@@ -113,47 +176,13 @@ namespace A2SV.ProductHubManagement.Persistence.Migrations
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("UserId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
+
+                    b.HasIndex("AuthUserId1");
 
                     b.HasIndex("CategoryId");
 
-                    b.HasIndex("UserId");
-
                     b.ToTable("Products");
-                });
-
-            modelBuilder.Entity("A2SV.ProductHubManagement.Domain.User", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("UpdatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Username")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("A2SV.ProductHubManagement.Domain.Booking", b =>
@@ -169,17 +198,17 @@ namespace A2SV.ProductHubManagement.Persistence.Migrations
 
             modelBuilder.Entity("A2SV.ProductHubManagement.Domain.Product", b =>
                 {
+                    b.HasOne("A2SV.ProductHubManagement.Domain.AuthUser", "AuthUser")
+                        .WithMany()
+                        .HasForeignKey("AuthUserId1");
+
                     b.HasOne("A2SV.ProductHubManagement.Domain.Category", "Categories")
                         .WithMany()
                         .HasForeignKey("CategoryId");
 
-                    b.HasOne("A2SV.ProductHubManagement.Domain.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId");
+                    b.Navigation("AuthUser");
 
                     b.Navigation("Categories");
-
-                    b.Navigation("User");
                 });
 #pragma warning restore 612, 618
         }
